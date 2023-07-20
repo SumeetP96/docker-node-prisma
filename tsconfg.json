@@ -2,6 +2,7 @@
   "extends": "@tsconfig/node18/tsconfig.json",
   "compilerOptions": {
     "lib": ["esnext"],
+    "module": "commonjs",
     "outDir": "dist"
   },
   "include": ["src"],
